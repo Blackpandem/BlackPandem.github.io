@@ -38,7 +38,7 @@ jekyll new prevots-website
 cd prevots-website  
 jekyll serve
 ```
-> localhost:4000  
+> serveur localhost:4000  
 > Le serveur Jekyll est actif, ne pas oublier de l'arrêter !  
 > Github lance un serveur Jekyll pour éviter de revenir sur le serveur de git à chaque mise à jour.
 
@@ -51,16 +51,18 @@ sudo apt-get install nomApplication
 
 - Suivre github page pour créer une repository.
 
-- Pour cloner le projet sur la machine virtuelle
+#### Pour cloner le projet sur la machine virtuelle
 
 ```sh  
 git clone https://github.com/username/username.github.io
 ```  
 
-- Aller dans le dossier repository de git sur la machine virtuelle
+#### Aller dans le dossier repository de git sur la machine virtuelle et écrire dans l'index html
 
 ```sh  
 cd username.github.io  
+
+echo "Hello World" > index.html
 
 git add --all  
 
