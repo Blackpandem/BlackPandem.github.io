@@ -10,6 +10,8 @@ SSG : Static Site Generator
 
 NodeJS : JavaScript et fonctionne avec Ruby, Pearl, etc.
 
+*Git* est un logiciel de gestion de versions décentralisé. C'est un logiciel libre créé par Linus Torvalds, auteur du noyau Linux, et distribué selon les termes de la licence publique générale GNU version 2.
+
 ####Installation de Jekyll sur Linux
 
 - Sur la machine virtuelle, ouvrir le terminal et se situer dans la racine de l'utilisateur
@@ -36,25 +38,35 @@ jekyll new prevots-website
 cd prevots-website  
 jekyll serve
 ```
-> localhost:4000
-> Le serveur Jekyll est actif, ne pas oublier de l'arrêter !
+> localhost:4000  
+> Le serveur Jekyll est actif, ne pas oublier de l'arrêter !  
+> Github lance un serveur Jekyll pour éviter de revenir sur le serveur de git à chaque mise à jour.
 
 - Editer le fichier index.html
+-  installer une application
 
-sudo apt-get install nomApplication : installer une application
+```sh  
+sudo apt-get install nomApplication
+```
 
-Git est un logiciel de gestion de versions décentralisé. C'est un logiciel libre créé par Linus Torvalds, auteur du noyau Linux, et distribué selon les termes de la licence publique générale GNU version 2.
+- Suivre github page pour créer une repository.
 
-Suivre github page pour créer une repository.
+- Pour cloner le projet sur la machine virtuelle
 
-git clone https://github.com/username/username.github.io : pour cloner le projet sur la machine virtuelle
+```sh  
+git clone https://github.com/username/username.github.io
+```  
 
-cd username.github.io : aller dans le dossier repository de git sur la machine virtuelle
+- Aller dans le dossier repository de git sur la machine virtuelle
 
-git add --all
+```sh  
+cd username.github.io  
 
-git commit -m "Initial commit"
+git add --all  
 
-git push -u origin master
+git commit -m "Initial commit"  
 
-http://username.github.io. pour accéder à la page : http://blackpandem.github.io.
+git push -u origin master  
+```  
+
+> http://username.github.io. pour accéder à la page : http://blackpandem.github.io.
