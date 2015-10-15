@@ -69,6 +69,13 @@ git add --all
 git commit -m "Initial commit"  
 
 git push -u origin master  
+
 ```  
+
+- Voir les commits  
+
+```sh 
+git log
+``` 
 
 > http://username.github.io. pour accéder à la page : http://blackpandem.github.io.
