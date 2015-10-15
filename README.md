@@ -1,7 +1,14 @@
 # BlackPandem.github.io  
 
 - Ecrire un fichier readme.md : permet d'écrire du texte avec du style avec différents symboles.
-> dillinger.io
+
+> dillinger.io, github.io, etc.  
+
+SSG : Static Site Generator  
+
+> http://jekyllrb.com  
+
+NodeJS : JavaScript et fonctionne avec Ruby, Pearl, etc.
 
 ####Installation de Jekyll sur Linux
 
@@ -15,17 +22,24 @@ cd atc123
 mkdir Sites
 ```
 
+- Installer jekyll en ligne de commande grâce aux instructions du site jekyll en installant le langage ruby.
+```sh  
+sudo apt-get install ruby
+sudo apt-get install jekyll  
 
-SSG : Static Site Generator
-http://jekyllrb.com
+```
 
-NodeJS : JavaScript et fonctionne avec Ruby, Pearl, etc.
+Créer le dossier du site web avec jekyll et lancer le serveur jekyll.  
 
-Installer jekyll en ligne de commande grâce aux instructions du site jekyll en installant le langage ruby.
-Créer le dossier du site web avec jekyll et lancer le serveur jekyll.
--> localhost:4000
+```sh  
+jekyll new prevots-website 
+cd prevots-website  
+jekyll serve
+```
+> localhost:4000
+> Le serveur Jekyll est actif, ne pas oublier de l'arrêter !
 
-Editer le fichier index.html
+- Editer le fichier index.html
 
 sudo apt-get install nomApplication : installer une application
 
