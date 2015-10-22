@@ -6,3 +6,6 @@ git push
 
 Relancer le serveur pour prendre en compte les modifications du local :
 jekyll serve
+
+Pour mettre a jour les dossiers et fichiers :
+git all .
