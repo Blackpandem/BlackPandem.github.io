@@ -4,7 +4,7 @@
 
 > dillinger.io, github.io, etc.  
 
-SSG : Static Site Generator  
+SSG : Static Site Generator  (Générateur de pages statiques)
 
 > http://jekyllrb.com  
 
