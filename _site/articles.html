@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>{{site.title}}</title>
+    <title>Site entreprise | Github Pages avec Bootstrap</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
@@ -165,22 +165,52 @@
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">
-                   {{page.title}}
+                   Articles
                 </h1>
             </div>
-           {% for post in site.posts limit:6 %}
+           
             <div class="col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h4>{{ post.title }}</h4>
+                        <h4>Article 3</h4>
                     </div>
                     <div class="panel-body">
-                        <p>{{ post.excerpt }}</p>
-                        <a href="{{ post.url }}" class="btn btn-default">En savoir plus</a>
+                        <p>Aller dans le dossier repository de git sur la machine virtuelle et écrire dans l'index html
+
+</p>
+                        <a href="/2015/11/19/article3.html" class="btn btn-default">En savoir plus</a>
                     </div>
                 </div>
             </div>
-            {% endfor %}      
+            
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4>Article 2</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Pour cloner le projet sur la machine virtuelle
+
+</p>
+                        <a href="/2015/11/19/article2.html" class="btn btn-default">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4>Article 1</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Installation de Jekyll sur Linux
+
+</p>
+                        <a href="/news/2015/11/19/article1.html" class="btn btn-default">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+                  
         </div>
 
         <!-- /.row -->
@@ -206,7 +236,11 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>{% include footer.html %}</p>
+                    <p><p>Alexandre Prevots© - 2015</p>
+
+
+</body>
+</html></p>
                 </div>
             </div>
         </footer>
@@ -234,7 +268,12 @@
 
 
 
-{% for post in site.posts%}
-<h4>{{ post.title }}</h4>
 
-{% endfor %}
+<h4>Article 3</h4>
+
+
+<h4>Article 2</h4>
+
+
+<h4>Article 1</h4>
+
