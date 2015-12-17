@@ -32,6 +32,7 @@ sudo apt-get install jekyll
 ```
 
 Créer le dossier du site web avec jekyll et lancer le serveur jekyll.  
+Il faut être dans le bon dossier pour lancer le serveur jekyll !
 
 ```sh  
 jekyll new prevots-website 
